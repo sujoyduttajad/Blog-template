@@ -29,10 +29,9 @@ body {
 
 .blog {
  background-color: $blog-bg;
- max-width: 1350px;
+ width: 100vw;
+ height: 100vh;
  display: grid;
- height: 90vh;
- max-height: 800px;
  overflow: hidden;
  grid-template-columns: 15% 20% 35% 30%;
  grid-template-rows: 100%;
