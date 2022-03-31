@@ -1,0 +1,32 @@
+@import "./home";
+
+
+
+// ---- Global styles ----
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+   }
+
+// ####### Custom scroll bar settings #######
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+    width: 0.5px;
+}
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
