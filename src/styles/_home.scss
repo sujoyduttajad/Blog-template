@@ -391,6 +391,9 @@ marquee {
  .blog-menu {
   @media screen and (max-width: 1030px) {
    display: none;
+   &:hover {
+       text-decoration: underline;
+   }
   }
  }
 }
