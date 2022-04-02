@@ -21,14 +21,13 @@ const MainFeed = ({ articles }) => {
                 alt={article.title}
               />
               <div className="blog-detail">
-                <span>By Richard Carnation</span>
+                <span>By {article.author}</span>
                 <span>5 Min Read</span>
               </div>
               <p>
-                Blonde received widespread acclaim, with critics praising
-                Ocean's introspective lyrics and the album's unconventional
+                {article.description}
               </p>
-              <Link to="#">
+              <Link to={article.url}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
