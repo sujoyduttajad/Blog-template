@@ -1,5 +1,6 @@
 import React from 'react'
 import format from 'date-fns/format';
+import { Link } from "react-router-dom";
 
 const MainFeed = () => {
   return (
@@ -29,7 +30,7 @@ const MainFeed = () => {
               Blonde received widespread acclaim, with critics praising Ocean's
               introspective lyrics and the album's unconventional
             </p>
-            <a href="#">
+            <Link to="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -44,7 +45,7 @@ const MainFeed = () => {
                 <path d="M4 4v7a4 4 0 004 4h12" />
               </svg>
               See More
-            </a>
+            </Link>
           </div>
         </div>
         <div className="blog-header">
@@ -68,7 +69,7 @@ const MainFeed = () => {
               Having traveled to Turkey multiple times, with critics praising
               Ocean's introspective lyrics and the album's unconventional
             </p>
-            <a href="#">
+            <Link to="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -83,7 +84,7 @@ const MainFeed = () => {
                 <path d="M4 4v7a4 4 0 004 4h12" />
               </svg>
               See More
-            </a>
+            </Link>
           </div>
         </div>
         <div className="blog-header">
@@ -107,7 +108,7 @@ const MainFeed = () => {
               Time is defines ad the indefinete continued progress, with critics
               praising Ocean's introspective lyrics and the album's
             </p>
-            <a href="#">
+            <Link to="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -122,7 +123,7 @@ const MainFeed = () => {
                 <path d="M4 4v7a4 4 0 004 4h12" />
               </svg>
               See More
-            </a>
+            </Link>
           </div>
         </div>
       </div>
