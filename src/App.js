@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import "./styles/global.scss";
+import { Routes, Route, Link } from "react-router-dom";
 
 require('dotenv').config()
 
@@ -20,10 +21,10 @@ function App() {
   }, [])
 
   return (
-    <>
-      <Home data={data}/>
-      <Blog/>
-    </>
+    <Routes>
+      <Route path="/Studio" element={<Home data={data}/>} />
+      <Route path="/Blog" element={<Blog/>} />
+    </Routes>
   );
 }
 
