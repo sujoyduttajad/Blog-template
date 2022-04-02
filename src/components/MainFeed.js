@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 const MainFeed = ({ articles }) => {
   return (
     <div className="blog-header-container">
-        <div className="blog-big__title">MagazineDope</div>
+      <div className="blog-big__title">MagazineDope</div>
       {articles.map((article) => {
         return (
           <div className="blog-header">
             <div className="blog-article header-article">
-            {/* <div className="blog-big__title">Esteem</div> */}
+              <div className="blog-small-title">{article.title}</div>
               <div className="blog-menu small-title date">
                 {format(new Date(), "dd.MM.yyyy")}
               </div>
