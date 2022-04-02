@@ -62,7 +62,7 @@ body {
 
  &-menu {
   font-size: 22px;
-  text-decoration: none;
+//   text-decoration: none;
   color: $subtitle-color;
   display: flex;
   letter-spacing: -0.5px;
@@ -227,7 +227,7 @@ body {
 
  a {
   color: $subtitle-color;
-  text-decoration: underline;
+//   text-decoration: underline;
   font-size: 26px;
   letter-spacing: -1px;
   display: flex;
@@ -389,9 +389,13 @@ marquee {
  }
 
  .blog-menu {
-    &:hover {
-        text-decoration: underline;
-    }
+     h3{
+         text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+     }
+    
   @media screen and (max-width: 1030px) {
    display: none;
   }
