@@ -27,7 +27,7 @@ const MainFeed = ({ articles }) => {
               <p>
                 {article.description}
               </p>
-              <Link to={article.url}>
+              <a href={article.url}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -42,7 +42,7 @@ const MainFeed = ({ articles }) => {
                   <path d="M4 4v7a4 4 0 004 4h12" />
                 </svg>
                 See More
-              </Link>
+              </a>
             </div>
           </div>
         );
