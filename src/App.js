@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import Home from "./components/Home";
+import Home from "./pages/Home";
 import "./styles/global.scss";
 
 require('dotenv').config()
