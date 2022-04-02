@@ -1,4 +1,5 @@
 import React from 'react'
+import format from 'date-fns/format';
 
 const MainFeed = () => {
   return (
@@ -6,7 +7,12 @@ const MainFeed = () => {
         <div class="blog-header">
           <div class="blog-article header-article">
             <div class="blog-big__title">Esteem</div>
-            <div class="blog-menu small-title date">12.06.2021</div>
+            <div class="blog-menu small-title date">
+                12.06.2021
+                {
+                    format(new Date(), 'do MMMM yyyy')
+                }
+            </div>
           </div>
           <div class="blog-article">
             <img
