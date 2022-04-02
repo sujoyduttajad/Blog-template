@@ -18,7 +18,7 @@ const Sidebar = () => {
           </svg>
         </a>
         <a href="/Studio" class="blog-menu">
-          Studio
+          <h3>Studio</h3>
         </a>
         <a href="/Blog" class="blog-menu">
           Blog
