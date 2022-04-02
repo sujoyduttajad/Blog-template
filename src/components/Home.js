@@ -1,22 +1,11 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import ArticleList from "./ArticleList";
 import MainFeed from "./MainFeed";
 import Sidebar from "./Sidebar";
 
-const Home = () => {
+const Home = ({ data }) => {
 
-  const [data, setData] = useState();
 
-  useEffect(() => {
-    const getNews = async () => {
-      const response = await fetch(`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${process.env.REACT_APP_API_KEY}`);
-      const resToJson = await response.json();
-      console.log(resToJson);
-      setData(resToJson)
-    }
-
-    getNews();
-  }, [])
 
   return (
     <div className="blog">
