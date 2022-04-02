@@ -10,7 +10,7 @@ const MainFeed = ({ articles }) => {
         return (
           <div className="blog-header">
             <div className="blog-article header-article">
-              <div className="blog-small-title">{article.title}</div>
+              <div className="medium-title">{article.title}</div>
               <div className="blog-menu small-title date">
                 {format(new Date(), "dd.MM.yyyy")}
               </div>
