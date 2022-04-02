@@ -8,9 +8,8 @@ const MainFeed = () => {
           <div class="blog-article header-article">
             <div class="blog-big__title">Esteem</div>
             <div class="blog-menu small-title date">
-                12.06.2021
                 {
-                    format(new Date(), 'do MMMM yyyy')
+                    format(new Date(), 'dd.MM.yyyy')
                 }
             </div>
           </div>
