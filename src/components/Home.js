@@ -6,13 +6,13 @@ import Sidebar from "./Sidebar";
 const Home = () => {
 
   const [data, setData] = useState();
-  console.log(process.env.REACT_APP_API_KEY)
 
   useEffect(() => {
     const getNews = async () => {
       const response = await fetch(`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${process.env.REACT_APP_API_KEY}`);
       const resToJson = await response.json();
       console.log(resToJson);
+      setData(resToJson)
     }
 
     getNews();
