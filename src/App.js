@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 import "./styles/global.scss";
 
 require('dotenv').config()
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <Home data={data}/>
+      <Blog/>
     </>
   );
 }
