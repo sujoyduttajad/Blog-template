@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <div class="blog-part is-menu">
         <a href="/Work" class="blog-menu">
-          <h3>Work</h3>
+          Work
           <svg
             fill="none"
             stroke="currentColor"
@@ -18,13 +18,13 @@ const Sidebar = () => {
           </svg>
         </a>
         <a href="/Studio" class="blog-menu">
-          <h3>Studio</h3>
+          Studio
         </a>
         <a href="/Blog" class="blog-menu">
-          <h3>Blog</h3>
+          Blog
         </a>
         <a href="/Contact" class="blog-menu">
-          <h3>Contact</h3>
+          Contact
         </a>
         <a href="/Contact" class="blog-menu mention">
           @MagazineDope
