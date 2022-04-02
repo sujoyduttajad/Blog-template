@@ -3,7 +3,7 @@ import React from 'react'
 const Sidebar = () => {
   return (
     <div class="blog-part is-menu">
-        <a href="#" class="blog-menu">
+        <a href="/Work" class="blog-menu">
           Work
           <svg
             fill="none"
@@ -17,19 +17,19 @@ const Sidebar = () => {
             <path d="M7 17L17 7M7 7h10v10" />
           </svg>
         </a>
-        <a href="#" class="blog-menu">
+        <a href="/Studio" class="blog-menu">
           Studio
         </a>
-        <a href="#" class="blog-menu">
+        <a href="/Blog" class="blog-menu">
           Blog
         </a>
-        <a href="#" class="blog-menu">
+        <a href="/Contact" class="blog-menu">
           Contact
         </a>
-        <a href="#" class="blog-menu mention">
+        <a href="/Contact" class="blog-menu mention">
           @MagazineDope
         </a>
-        <a href="#" class="blog-menu subscribe">
+        <a href="/" class="blog-menu subscribe">
           Subscribe
         </a>
       </div>
