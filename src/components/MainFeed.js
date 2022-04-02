@@ -17,12 +17,9 @@ const MainFeed = ({ articles }) => {
             </div>
             <div className="blog-article">
               <img
-                src="https://images.unsplash.com/photo-1496629062893-b0f566065d44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                alt=""
+                src={article.urlToImage}
+                alt={article.title}
               />
-              <h2>
-                Sharing The <span>Widespread</span> Acclaim About Motivation
-              </h2>
               <div className="blog-detail">
                 <span>By Richard Carnation</span>
                 <span>5 Min Read</span>
