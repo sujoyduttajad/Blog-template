@@ -6,10 +6,11 @@ import Sidebar from "./Sidebar";
 const Home = () => {
 
   const [data, setData] = useState();
+  console.log(process.env.REACT_APP_API_KEY)
 
   useEffect(() => {
     const getNews = async () => {
-      const response = await fetch(`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${process.env.API_KEY}`);
+      const response = await fetch(`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${process.env.REACT_APP_API_KEY}`);
       const resToJson = await response.json();
       console.log(resToJson);
     }
@@ -18,14 +19,14 @@ const Home = () => {
   }, [])
 
   return (
-    <div class="blog">
+    <div className="blog">
       <Sidebar/>
-      <div class="blog-header blog-is-sticky">
-        <div class="blog-article header-article">
-          <div class="blog-big__title">Self</div>
-          <div class="blog-menu rounded small-title">Pinned Issue</div>
+      <div className="blog-header blog-is-sticky">
+        <div className="blog-article header-article">
+          <div className="blog-big__title">Self</div>
+          <div className="blog-menu rounded small-title">Pinned Issue</div>
         </div>
-        <div class="blog-article page-number">NO. 01</div>
+        <div className="blog-article page-number">NO. 01</div>
       </div>
       <MainFeed/>
       <ArticleList/>
