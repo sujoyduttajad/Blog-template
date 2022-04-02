@@ -388,14 +388,13 @@ marquee {
   display: none;
  }
 
- .blog-menu {
-     h3{
-         text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-        }
-     }
-    
+ .blog-menu {  
+    text-decoration: none;
+    font-size: 0.5em;
+    font-weight: 300;
+    &:hover {
+        text-decoration: underline;
+    }
   @media screen and (max-width: 1030px) {
    display: none;
   }
