@@ -32,7 +32,7 @@ body {
  height: 100vh;
  display: grid;
  overflow: hidden;
- grid-template-columns: 15% 55% 30%;
+ grid-template-columns: 15% 65% 20%;
  grid-template-rows: 100%;
  width: 100%;
  padding: 40px 4px;
@@ -191,6 +191,23 @@ body {
  }
 }
 
+.medium-title {
+    font-family: $title-font;
+    font-size: 2em;
+    font-weight: 600;
+    border-bottom: 1px solid $border-color;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+   
+    @media screen and (max-width: 560px) {
+     font-size: 14px;
+     position: absolute;
+     top: 10px;
+     right: 24px;
+     border-bottom: 0;
+    }
+}
+
 .small-title {
  border-bottom: 1px solid $border-color;
  margin-bottom: 20px;
@@ -229,7 +246,6 @@ body {
 
  a {
   color: $subtitle-color;
-//   text-decoration: underline;
   font-size: 26px;
   letter-spacing: -1px;
   display: flex;
