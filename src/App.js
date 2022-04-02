@@ -18,7 +18,7 @@ function App() {
     }
 
     getNews();
-  }, [])
+  }, []);
 
   return (
     <Routes>
