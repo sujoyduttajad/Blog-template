@@ -389,11 +389,11 @@ marquee {
  }
 
  .blog-menu {
+    &:hover {
+        text-decoration: underline;
+    }
   @media screen and (max-width: 1030px) {
    display: none;
-   &:hover {
-       text-decoration: underline;
-   }
   }
  }
 }
