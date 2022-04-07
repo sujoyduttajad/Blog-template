@@ -23,7 +23,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/Studio" element={<Home data={data}/>} />
+      <Route path="/" element={<Home data={data}/>} />
       <Route path="/Blog" element={<Blog/>} />
     </Routes>
   );
