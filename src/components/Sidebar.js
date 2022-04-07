@@ -17,7 +17,7 @@ const Sidebar = () => {
             <path d="M7 17L17 7M7 7h10v10" />
           </svg>
         </a>
-        <a href="/Studio" className="blog-menu">
+        <a href="/" className="blog-menu">
           Studio
         </a>
         <a href="/Blog" className="blog-menu">
